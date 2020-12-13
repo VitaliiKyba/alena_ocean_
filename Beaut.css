@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.osn {/* Beaut*/
+    background-image: url(/alena_ocean_/img/beaut.jpg);/* no-repeat center top/cover;*/
+}
+
+.hater {/* Beaut*/
+    margin: 0px;
+    padding: 0px;
+    height: 54vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+@media (max-width: 800px) {
+    #hom {
+        font-size: 8vw;
+    }
+}
+
+a {
+    text-decoration: none;/* Отменяем подчеркивание у ссылки */
+}
+
+.tohome {/* Beaut*/
+     position: fixed;
+    top: 1%;
+    color: whitesmoke;
+}
+
+ul.menu {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 2px;/* Значение полей */
+    padding-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 2.5vw;
+    font-style: italic;
+    text-shadow: 6px 8px 3px rgb(145, 58, 130);
+}
+
+ul.menu li:hover {
+    text-shadow: 4px 6px 4px rgb(2, 120, 255);
+    font-size: 3vw;
+    padding-top: 1.5vw;
+}
+
+   ul.menu li {
+    display: inline;/* Отображать как строчный элемент */
+    margin-right: 1.8vw; /* Отступ слева */
+    padding-top: 2vw; /* Поля вокруг текста */
+   }
+
+.beaut {/* Beaut*/
+    margin: 0px;
+    padding: 0px; 
+}
+
+.hat1 {/* Beaut*/
+    background-image: url(/alena_ocean_/img/beaut1.jpg);
+    margin-top: 0.6vw;
+}
+
+.haty {/* Beaut*/
+    background-image: url(/alena_ocean_/img/beaut3.jpg);
+    margin-top: 0.6vw;
+}
+
+.hat2 {/* Beaut*/
+    background-image: url(/alena_ocean_/img/beaut2.jpg);
+    margin-top: 0.6vw;
+}
+
+.hat3 {/* Beaut*/
+    background-image: url(/alena_ocean_/img/beauty.jpg);
+    margin-top: 0.6vw;
+}
+
+.hat4 {/* Beaut*/
+    background-image: url(/alena_ocean_/img/beaut4.jpg);
+    margin-top: 0.6vw;
+}
+
+.hat5 {/* Beaut*/
+    background-image: url(/alena_ocean_/img/beaut5.jpg);
+    margin-top: 0.6vw;
+}
+
+.beautyful {
+    display: inline;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    padding-bottom: 2vw;
+}
+
+ul.toup {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 2px;/* Значение полей */
+    padding-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 5.5vw;
+    text-shadow: 6px 8px 3px rgb(145, 58, 130);
+}
+
+ul.toup li:hover {
+    text-shadow: 4px 6px 4px rgb(2, 120, 255);
+    font-size: 6vw;
+    flex-direction: flex-end;
+    padding-top: 7.5vw;
+}
+
+@media (max-width: 700px) {
+    #click {
+    font-size: 30vw;
+    margin-right: 28vw;
+    position:fixed;
+    top:50%;
+    left:80%;
+    }
+}
+
+   ul.toup li {
+    display: inline;/* Отображать как строчный элемент */
+    margin-right: 1.8vw; /* Отступ слева */
+    padding-top: 7vw; /* Поля вокруг текста */
+   }
+
+.up { /*Beaut*/
+    display:none;
+    position:fixed;
+    top:75%;
+    left:90%;
+     justify-content: flex-end;
+     color: rgb(0, 140, 255);
+    shadow: 5px 7px 5px rgb(245, 95, 220);
+}
